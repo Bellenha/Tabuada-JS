@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício da tabuada</title>
+</head>
+<body>
+
+    <h1>Tabuada</h1>
+
+    <script>
+        let tabuada = prompt("Digite qual tabuada você deseja calcular: ")
+        let tabuada1 = 5
+        let resultado
+        
+        document.writeln("Testando na mão:" + "<br>")
+        document.write(tabuada1 + " X 1" + " = " + tabuada*1 + "<br>");
+        document.write(tabuada1 + " X 2" + " = " + tabuada*2 + "<br>");
+        document.write(tabuada1 + " X 3" + " = " + tabuada*3 + "<br>");
+        document.write(tabuada1 + " X 4" + " = " + tabuada*4 + "<br>");
+        document.write(tabuada1 + " X 5" + " = " + tabuada*5 + "<br>");
+        document.write(tabuada1 + " X 6" + " = " + tabuada*6 + "<br>");
+        document.write(tabuada1 + " X 7" + " = " + tabuada*7 + "<br>");
+        document.write(tabuada1 + " X 8" + " = " + tabuada*8 + "<br>");
+        document.write(tabuada1 + " X 9" + " = " + tabuada*9 + "<br>");
+        document.write(tabuada1 + " X 10" + " = " + tabuada*10 + "<br><br>");
+
+        document.writeln("Testando com o for:" + "<br>")
+        for (var i = 0; i <= 10; i++){
+            resultado = tabuada * i
+            document.write(i + " X " + tabuada + " = " + resultado + "<br>")
+        }
+
+    </script>
+    
+</body>
+</html>
